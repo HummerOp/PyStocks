@@ -27,15 +27,21 @@ This project uses AI and Python to extract sentiment scores and key financial fa
      - `5`: Neutral  
      - `6–10`: Positive
    - Calculate additional financial ratios from a predefined list of factors.
-
-3. **Data Output**
+3. **Calculate the following financial ratios**
+     - **Current Ratio** = Current Assets / Current Liabilities
+     - **ROA** = (Net Income / Total Assets) × 100
+     - **Price to Earnings (P/E)** = Market Price per Share / EPS
+     - **Price to Book (P/B)** = Market Price per Share / Book Value per Share
+     - **Dividend Yield** = (Annual Dividends / Share Price) × 100
+     - **Equity Multiplier** = Total Assets / Shareholders’ Equity
+4. **Data Output**
    - Organize per-company data into structured Excel sheets:
      ```
      Company Name
      Year | Sentiment Score | Share Price at 1/1 | Extra Factors...
      ```
 
-4. **Analysis**
+5. **Analysis**
    - Perform regression analysis in Excel.
    - Use results for report writing or further modeling.
 
