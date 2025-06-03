@@ -18,8 +18,6 @@ This project uses AI and Python to extract sentiment scores and key financial fa
 
 1. **Data Collection**
    - Download 10-K reports for each selected company from EDGAR.
-   - Filter companies using [TradingView’s Technology Services sector](https://www.tradingview.com/symbols/SP-S5INFT/components/).
-
 2. **Data Processing**
    - Extract specific sections (Item 1, 1A, 1B, 3, 7A).
    - Use AI to assign sentiment scores:
